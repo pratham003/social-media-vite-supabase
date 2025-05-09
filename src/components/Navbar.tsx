@@ -57,14 +57,14 @@ export const Navbar = () => {
                 <span className="text-gray-300"> {displayName}</span>
                 <button
                   onClick={signOut}
-                  className="bg-red-500 px-3 py-1 rounded">
+                  className="bg-red-500 px-3 py-1 rounded cursor-pointer">
                   Sign Out
                 </button>
               </div>
             ) : (
               <button
                 onClick={signInWithGitHub}
-                className="bg-blue-500 px-3 py-1 rounded">
+                className="bg-blue-500 px-3 py-1 rounded cursor-pointer">
                 Sign in with Github
               </button>
             )}
