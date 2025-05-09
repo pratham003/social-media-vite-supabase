@@ -13,7 +13,7 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <QueryClientProvider client={client}>
       <AuthProvider>
-        <Router basename="/social-media-vite-supabase">
+        <Router>
           <App />
         </Router>
       </AuthProvider>
